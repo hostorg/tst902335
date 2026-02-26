@@ -5,18 +5,18 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Charity organizations and NGOs working to support communities, raise funds, and create social impact through various initiatives." name="description"/>
-<meta content="charity, NGO, nonprofit, donations, social work" name="keywords"/>
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
 <base href=""/>
-<title>About Us</title>
+<title>About_Us</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
 <link href="assets/css/style.css" rel="stylesheet"/>
 <link href="assets/css/middle_sections.css" rel="stylesheet"/>
 <link href="assets/css/anim-effects.css" rel="stylesheet"/>
-<link href="assets/css/components/header-50.css" rel="stylesheet"/>
-<link href="assets/css/components/footer-19.css" rel="stylesheet"/>
+<link href="assets/css/components/header-22.css" rel="stylesheet"/>
+<link href="assets/css/components/footer-7.css" rel="stylesheet"/>
 <link href="assets/css/bootstrap.css" rel="stylesheet"/>
 <link href="assets/css/plugins.css" rel="stylesheet"/>
 <link href="assets/css/custom-Imports.css" rel="stylesheet"/>
@@ -26,7 +26,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet"/>
 <style>
             :root {
-                --site-font: Quicksand;
+                --site-font: "Rajdhani", sans-serif;
             }
             body, #wrapper, #wrapper * {
                 font-family: var(--site-font) !important;
@@ -37,103 +37,21 @@
 <div id="wrapper">
 <div data-src="header.html" id="header"></div>
 <div id="mainPageContent">
-<section class="section-wrapper about-65">
-<div class="container about-65-container">
-<div class="row about-65-row">
-<!-- LEFT IMAGE -->
-<div class="col-md-6 col-sm-12 about-65-image-col anim-slide-right">
-<div class="about-65-image-box">
-<img alt="NGO volunteer" class="about-65-image" src="assets/images/about-65-1.jpg"/>
-<div class="about-65-image-overlay">
-<h3>Join us in<br/>making a difference</h3>
-</div>
-</div>
-</div>
-<!-- RIGHT CONTENT -->
-<div class="col-md-6 col-sm-12 about-65-content-col anim-slide-left">
-<h2 class="about-65-title">We are a trusted<br/>force for good</h2>
-<p class="about-65-subtitle">
-                    Empowering communities through compassion, action, and sustainable change.
-                </p>
-<div class="about-65-line-box">
-<span class="about-65-line"></span>
-<p>
-                        We work tirelessly to support education, healthcare, and basic needs for underserved
-                        communities. Together, we can build a future filled with hope and dignity.
-                    </p>
-</div>
-<a class="about-65-btn" href="#">
-                    READ MORE
-                </a>
-</div>
-</div>
-</div>
-</section>
-<section class="section-wrapper about-66">
-<div class="container">
+<div id="middle_section_default">
+<article class="container text-info-block">
 <div class="row">
-<!-- Left Content -->
-<div class="col-md-6 anim-slide-right">
-<div class="about-66-subtitle">ABOUT US</div>
-<h2 class="about-66-title">Please Rise Your<br/>Helping Hand</h2>
-<p class="about-66-text">
-                    We are a non-profit organization committed to improving lives through education,
-                    healthcare, clean water, and community empowerment. Every helping hand brings hope,
-                    dignity, and opportunity to those in need.
-                </p>
-<button class="about-66-btn">Read More</button>
-</div>
-<!-- Right Images -->
-<div class="col-md-6 anim-slide-left">
-<div class="about-66-images">
-<div class="about-66-img about-66-img-lg">
-<img alt="NGO helping child with clean water" src="assets/images/about-66-1.jpg"/>
-</div>
-<div class="about-66-img about-66-img-sm">
-<img alt="Child receiving care and support" src="assets/images/about-66-2.jpg"/>
+<div class="col-xs-12" style="text-align: center;">
+<h2>Please add middle section</h2><br/>
+<button class="custombtn" id="AddNewSection">Add Sections</button>
 </div>
 </div>
+</article>
 </div>
-</div>
-<!-- Bottom Boxes -->
-<div class="row about-66-info text-center anim-slide-up">
-<div class="col-md-4 about-66-box">
-<div class="about-66-icon">
-<i class="bi bi-heart-fill"></i>
-</div>
-<h4>Our Mission</h4>
-<p>
-                    To uplift underprivileged communities by providing access to education,
-                    healthcare, nutrition, and sustainable livelihood programs.
-                </p>
-</div>
-<div class="col-md-4 about-66-box">
-<div class="about-66-icon">
-<i class="bi bi-eye-fill"></i>
-</div>
-<h4>Our Vision</h4>
-<p>
-                    A world where every individual lives with dignity, opportunity,
-                    and hope regardless of background or circumstances.
-                </p>
-</div>
-<div class="col-md-4 about-66-box">
-<div class="about-66-icon">
-<i class="bi bi-people-fill"></i>
-</div>
-<h4>Our Values</h4>
-<p>
-                    Compassion, transparency, integrity, and community-driven impact
-                    guide everything we do.
-                </p>
-</div>
-</div>
-</div>
-</section>
 </div>
 <div data-src="footer.html" id="footer"></div>
 </div>
 <script src="assets/js/jquery.js"></script>
+<script src="assets/js/middle-section.js"></script>
 <script src="assets/js/init.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/jquery.main.js"></script>
@@ -177,14 +95,15 @@
                             } else {
                                 $("#" + id).find(".main-header-section").css("display", "none");
                                 $("#" + id).find(".header-breadcrumb-section").css("display", "inline-block");
+                                const displayName = toDisplayName(fileName);
+
                                 $("#" + id).find(".header-breadcrumb-section .Page_name")
-                                    .text(fileName.charAt(0).toUpperCase() + fileName.slice(1));
+                                    .text(displayName.charAt(0).toUpperCase() + displayName.slice(1));
                             }
                         }
                     });
                 }
             </script>
-<script src="assets/js/middle-section.js"></script>
 <script src="assets/js/common_js/image_uploader.js"></script>
 </body>
 </html>
